@@ -3,125 +3,104 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Bihar Jharkhand Scrap Centre - Real Scrap Yard</title>
+<title>Bihar Jharkhand Scrap Centre | Premium Auto Recycling</title>
+<link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;500;700;900&display=swap" rel="stylesheet">
+<script src="https://cdn.tailwindcss.com"></script>
 <style>
-*{margin:0;padding:0;box-sizing:border-box;font-family:Arial,sans-serif}
-body{background:#111827;color:#fff}
-.header{background:#000;color:#fff;padding:12px 5%;display:flex;justify-content:space-between;align-items:center;position:sticky;top:0;z-index:10;border-bottom:2px solid #f97316}
-.logo{font-weight:900;font-size:17px} .logo span{color:#f97316}
-.nav a{color:#fff;text-decoration:none;margin-left:12px;font-size:13px;font-weight:bold}
-.hero{position:relative;height:380px;display:flex;align-items:center;justify-content:center;text-align:center;background:url('https://images.unsplash.com/photo-1560250097-0b93528c311a?w=1200') center/cover no-repeat}
-.hero::after{content:'';position:absolute;inset:0;background:rgba(0,0,0,0.7)}
-.hero-content{position:relative;z-index:2;padding:0 5%}
-.hero h1{font-size:38px} .hero h1 span{color:#f97316}
-.hero p{color:#d1d5db;margin:14px 0}
-.btn{padding:12px 22px;border-radius:8px;text-decoration:none;font-weight:bold;display:inline-block;margin:5px}
-.btn-orange{background:#f97316;color:#fff}
-.section{padding:35px 5%;background:#f9fafb;color:#111827}
-.section h2{text-align:center;margin-bottom:5px;font-size:28px}
-.section p.sub{text-align:center;color:#6b7280;margin-bottom:22px}
-.gallery{display:grid;grid-template-columns:repeat(auto-fit,minmax(300px,1fr));gap:20px}
-.card{background:#fff;border-radius:12px;overflow:hidden;box-shadow:0 6px 15px rgba(0,0,0,0.15);border:2px solid #e5e7eb}
-.card img{width:100%;height:220px;object-fit:cover}
-.card-body{padding:14px;text-align:center}
-.card-body h3{font-size:16px;color:#111827}
-.card-body small{color:#6b7280;font-size:12px;display:block;margin:6px 0 12px 0}
-.card-btn{background:#111827;color:#fff;width:100%;padding:11px;border:none;border-radius:8px;font-weight:bold;cursor:pointer}
-.card-btn:hover{background:#f97316}
-.footer{background:#000;color:#9ca3af;padding:25px 5%;text-align:center;font-size:13px}
+*{font-family:'Outfit',sans-serif}
+.glass{background:rgba(255,255,255,0.05);backdrop-filter:blur(12px);border:1px solid rgba(255,255,255,0.1)}
+.gold-text{background:linear-gradient(90deg,#f59e0b,#f97316);-webkit-background-clip:text;-webkit-text-fill-color:transparent}
+.premium-card{transition:all 0.4s ease}
+.premium-card:hover{transform:translateY(-8px);box-shadow:0 20px 40px rgba(249,115,22,0.2);border-color:#f97316}
 </style>
 </head>
-<body>
+<body class="bg-[#080808] text-white">
 
-<div class="header">
-<div class="logo">BIHAR JHARKHAND<br><span>SCRAP CENTRE</span></div>
-<div class="nav">
-<a href="#">Home</a>
-<a href="#stock">Stock</a>
-<a href="https://wa.me/918340118679">Contact</a>
+<header class="fixed w-full top-0 z-50 glass">
+<div class="max-w-7xl mx-auto px-6 py-4 flex justify-between items-center">
+<div class="font-black text-xl tracking-widest">SCRAP<span class="text-[#f97316]">CENTRE</span><br><small class="text-[9px] tracking-[4px] text-gray-400 -mt-2 block">BIHAR JHARKHAND • PREMIUM</small></div>
+<div class="hidden md:flex gap-8 text-xs tracking-widest font-medium text-gray-400">
+<a href="#" class="hover:text-white">HOME</a><a href="#stock" class="hover:text-white">STOCK</a><a href="#yards" class="hover:text-white">YARDS</a>
 </div>
+<a href="https://wa.me/918340118679" class="bg-white text-black px-6 py-2.5 rounded-full text-xs font-bold tracking-widest hover:bg-[#f97316] hover:text-white transition">ENQUIRE NOW</a>
 </div>
+</header>
 
-<div class="hero">
-<div class="hero-content">
-<h1>Real <span>Scrap Yard</span> in Bihar Jharkhand</h1>
-<p>Stacked, Wrecked, Rusted Cars - Asli Khatara Gaadiyan ka Stock</p>
-<a class="btn btn-orange" href="#stock">Yard Stock Dekho ↓</a>
+<section class="min-h-[90vh] flex items-center pt-20 px-6 max-w-7xl mx-auto">
+<div class="grid md:grid-cols-2 gap-10 items-center w-full">
+<div>
+<p class="text-[#f97316] text-xs tracking-[5px] mb-4">EST. 2005 • TRUSTED RECYCLING</p>
+<h1 class="text-5xl md:text-7xl font-black leading-[0.9]">WE BUY<br><span class="gold-text">DEAD CARS.</span><br>WE GIVE<br>LIFE TO METAL.</h1>
+<p class="text-gray-400 mt-6 text-sm leading-relaxed max-w-md">Bihar Jharkhand ka sabse bada premium scrap network. Gaya, Bodhya, Daltonganj, Patna, Ranchi me hamare yards. Free Pickup, Instant Payment, RC Cancellation.</p>
+<div class="flex gap-4 mt-8">
+<a href="#stock" class="bg-[#f97316] px-8 py-4 rounded-full text-xs font-bold tracking-widest">VIEW PREMIUM STOCK</a>
+<a href="https://wa.me/918340118679" class="glass px-8 py-4 rounded-full text-xs font-bold tracking-widest">CALL: 8340118679</a>
+</div>
+<div class="flex gap-10 mt-12 border-t border-white/10 pt-8">
+<div><h3 class="text-3xl font-black">5000+</h3><p class="text-[10px] text-gray-500 tracking-widest">CARS SCRAPPED</p></div>
+<div><h3 class="text-3xl font-black">5</h3><p class="text-[10px] text-gray-500 tracking-widest">YARDS NETWORK</p></div>
+<div><h3 class="text-3xl font-black">24H</h3><p class="text-[10px] text-gray-500 tracking-widest">PAYMENT</p></div>
 </div>
 </div>
+<div class="relative">
+<img src="https://images.unsplash.com/photo-1560250097-0b93528c311a?w=800" class="rounded-[30px] w-full h-[600px] object-cover">
+<div class="absolute -bottom-6 -left-6 glass p-6 rounded-2xl">
+<p class="text-[10px] tracking-widest text-gray-400">CURRENT YARD VALUE</p>
+<p class="text-2xl font-black mt-1">₹2.4 Cr+ Stock</p>
+<p class="text-[11px] text-[#f97316] mt-1">● LIVE UPDATE - DALTONGANJ YARD</p>
+</div>
+</div>
+</div>
+</section>
 
-<div class="section" id="stock">
-<h2>Hamare Yard Ka Asli Stock</h2>
-<p class="sub">Bilkul aapke bheje hue photos jaisa - Ek ke upar ek lagi hui scrap cars</p>
-<div class="gallery">
-
-<div class="card">
-<img src="https://images.unsplash.com/photo-1603386329225-868f9b1ee6c9?w=600" alt="Stacked Scrap">
-<div class="card-body">
-<h3>Stacked Scrap Cars Lot</h3>
-<small>Daltonganj Yard | Heavy Scrap</small>
-<button class="card-btn" onclick="wa('Stacked Lot')">Enquiry on WhatsApp →</button>
-</div>
-</div>
-
-<div class="card">
-<img src="https://images.unsplash.com/photo-1560250097-0b93528c311a?w=600" alt="Wrecked">
-<div class="card-body">
-<h3>Wrecked & Damaged Cars Pile</h3>
-<small>Gaya Yard | Accident Scrap</small>
-<button class="card-btn" onclick="wa('Wrecked Pile')">Enquiry on WhatsApp →</button>
-</div>
-</div>
-
-<div class="card">
-<img src="https://images.unsplash.com/photo-1486006920555-c77dc8c00baa?w=600" alt="Rusted">
-<div class="card-body">
-<h3>Rusted Old Sedan - Full Scrap</h3>
-<small>Bodhya Yard | Rusted Condition</small>
-<button class="card-btn" onclick="wa('Rusted Sedan')">Enquiry on WhatsApp →</button>
-</div>
+<section id="stock" class="max-w-7xl mx-auto px-6 py-20">
+<div class="flex justify-between items-end mb-10">
+<div><p class="text-[#f97316] text-xs tracking-[5px]">PREMIUM INVENTORY</p><h2 class="text-4xl font-black mt-2">OLD CARS IN STOCK</h2></div>
+<p class="text-gray-500 text-xs hidden md:block">Purani gaadiyan, premium dealing</p>
 </div>
 
-<div class="card">
-<img src="https://images.unsplash.com/photo-1534146275378-aa4e6ddda9ce?w=600" alt="Accident">
-<div class="card-body">
-<h3>Accident Car - Body Damage</h3>
-<small>Patna Yard | Total Loss</small>
-<button class="card-btn" onclick="wa('Accident Car')">Enquiry on WhatsApp →</button>
-</div>
+<div class="grid md:grid-cols-3 gap-6">
+
+<div class="premium-card bg-[#141414] rounded-[24px] overflow-hidden border border-white/10">
+<img src="https://images.unsplash.com/photo-1534146275378-aa4e6ddda9ce?w=600" class="h-56 w-full object-cover">
+<div class="p-6"><div class="flex justify-between"><h3 class="font-bold">Alto 800 - Old Condition</h3><span class="text-[#f97316] text-xs">SCRAP</span></div><p class="text-[11px] text-gray-500 mt-2 tracking-widest">DALTONGANJ YARD • 2012 MODEL</p><button onclick="book('Alto')" class="w-full mt-5 bg-white text-black py-3 rounded-full text-xs font-bold tracking-widest hover:bg-[#f97316] hover:text-white">GET PRICE ON WHATSAPP</button></div>
 </div>
 
-<div class="card">
-<img src="https://images.unsplash.com/photo-1580273916550-e323be2ae537?w=600" alt="Junkyard">
-<div class="card-body">
-<h3>Full Junkyard Stock - Bulk</h3>
-<small>Ranchi Yard | Bulk Scrap</small>
-<button class="card-btn" onclick="wa('Bulk Junkyard')">Enquiry on WhatsApp →</button>
-</div>
+<div class="premium-card bg-[#141414] rounded-[24px] overflow-hidden border border-white/10">
+<img src="https://images.unsplash.com/photo-1486006920555-c77dc8c00baa?w=600" class="h-56 w-full object-cover">
+<div class="p-6"><div class="flex justify-between"><h3 class="font-bold">Swift - Dusty & Rusted</h3><span class="text-[#f97316] text-xs">SCRAP</span></div><p class="text-[11px] text-gray-500 mt-2 tracking-widest">GAYA YARD • 2010 MODEL</p><button onclick="book('Swift')" class="w-full mt-5 bg-white text-black py-3 rounded-full text-xs font-bold tracking-widest hover:bg-[#f97316] hover:text-white">GET PRICE ON WHATSAPP</button></div>
 </div>
 
-<div class="card">
-<img src="https://images.unsplash.com/photo-1551524559-8af4e6624178?w=600" alt="Crushed">
-<div class="card-body">
-<h3>Crushed Cars for Metal</h3>
-<small>Daltonganj Yard | Metal Scrap</small>
-<button class="card-btn" onclick="wa('Crushed Cars')">Enquiry on WhatsApp →</button>
+<div class="premium-card bg-[#141414] rounded-[24px] overflow-hidden border border-white/10">
+<img src="https://images.unsplash.com/photo-1571105435186-4c9dbe7f8d3d?w=600" class="h-56 w-full object-cover">
+<div class="p-6"><div class="flex justify-between"><h3 class="font-bold">WagonR - Full Damage</h3><span class="text-[#f97316] text-xs">SCRAP</span></div><p class="text-[11px] text-gray-500 mt-2 tracking-widest">BODHYA YARD • 2011 MODEL</p><button onclick="book('WagonR')" class="w-full mt-5 bg-white text-black py-3 rounded-full text-xs font-bold tracking-widest hover:bg-[#f97316] hover:text-white">GET PRICE ON WHATSAPP</button></div>
 </div>
+
+<div class="premium-card bg-[#141414] rounded-[24px] overflow-hidden border border-white/10">
+<img src="https://images.unsplash.com/photo-1603386329225-868f9b1ee6c9?w=600" class="h-56 w-full object-cover">
+<div class="p-6"><div class="flex justify-between"><h3 class="font-bold">Bolero - Accident</h3><span class="text-[#f97316] text-xs">SCRAP</span></div><p class="text-[11px] text-gray-500 mt-2 tracking-widest">RANCHI YARD • HEAVY</p><button onclick="book('Bolero')" class="w-full mt-5 bg-white text-black py-3 rounded-full text-xs font-bold tracking-widest hover:bg-[#f97316] hover:text-white">GET PRICE ON WHATSAPP</button></div>
+</div>
+
+<div class="premium-card bg-[#141414] rounded-[24px] overflow-hidden border border-white/10">
+<img src="https://images.unsplash.com/photo-1551524559-8af4e6624178?w=600" class="h-56 w-full object-cover">
+<div class="p-6"><div class="flex justify-between"><h3 class="font-bold">Scorpio - Wrecked</h3><span class="text-[#f97316] text-xs">SCRAP</span></div><p class="text-[11px] text-gray-500 mt-2 tracking-widest">PATNA YARD • SUV</p><button onclick="book('Scorpio')" class="w-full mt-5 bg-white text-black py-3 rounded-full text-xs font-bold tracking-widest hover:bg-[#f97316] hover:text-white">GET PRICE ON WHATSAPP</button></div>
+</div>
+
+<div class="premium-card bg-[#141414] rounded-[24px] overflow-hidden border border-white/10">
+<img src="https://images.unsplash.com/photo-1580273916550-e323be2ae537?w=600" class="h-56 w-full object-cover">
+<div class="p-6"><div class="flex justify-between"><h3 class="font-bold">Stacked Lot - Bulk Deal</h3><span class="text-[#f97316] text-xs">BULK</span></div><p class="text-[11px] text-gray-500 mt-2 tracking-widest">DALTONGANJ • 10+ CARS</p><button onclick="book('Bulk Lot')" class="w-full mt-5 bg-[#f97316] text-white py-3 rounded-full text-xs font-bold tracking-widest">BULK ENQUIRY →</button></div>
 </div>
 
 </div>
-</div>
+</section>
 
-<div class="footer">
-Bihar Jharkhand Scrap Centre | Gaya Dobhi Road, Bodhya<br>
-Call: 8340118679 | Real Scrap Yard Photos | Free Pickup - RC Cancellation
-</div>
+<footer class="border-t border-white/10 py-10 text-center">
+<p class="text-[10px] tracking-[6px] text-gray-600">BIHAR JHARKHAND SCRAP CENTRE • PREMIUM EDITION</p>
+<p class="text-gray-500 text-xs mt-2">Gaya Dobhi Road, Bodhya | 8340118679 | Real Scrap Yard - Premium Dealing</p>
+</footer>
 
 <script>
-function wa(car){
-let m=`Namaste Sir, Mujhe ye scrap stock chahiye: ${car}. Details bhejo.`;
-window.open(`https://wa.me/918340118679?text=${encodeURIComponent(m)}`,'_blank');
-}
+function book(c){window.open(`https://wa.me/918340118679?text=${encodeURIComponent('Namaste Sir, Premium Stock me se ye gaadi chahiye: '+c+'. Price batao.')}`,'_blank')}
 </script>
 </body>
 </html>
