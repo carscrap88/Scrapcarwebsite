@@ -3,28 +3,32 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Bihar Jharkhand Scrap Centre - Old Cars Gallery</title>
+<title>Bihar Jharkhand Scrap Centre - Real Scrap Yard</title>
 <style>
 *{margin:0;padding:0;box-sizing:border-box;font-family:Arial,sans-serif}
-body{background:#f1f5f9;color:#1e293b}
-.header{background:#0f172a;color:#fff;padding:12px 5%;display:flex;justify-content:space-between;align-items:center;position:sticky;top:0;z-index:10}
-.logo{font-weight:900;font-size:18px} .logo span{color:#f97316}
-.nav a{color:#cbd5e1;text-decoration:none;margin-left:15px;font-size:13px;font-weight:bold}
-.hero{background:#0f172a;color:#fff;padding:50px 5%;text-align:center}
-.hero h1{font-size:34px} .hero h1 span{color:#f97316}
-.hero p{color:#94a3b8;margin:15px 0}
+body{background:#111827;color:#fff}
+.header{background:#000;color:#fff;padding:12px 5%;display:flex;justify-content:space-between;align-items:center;position:sticky;top:0;z-index:10;border-bottom:2px solid #f97316}
+.logo{font-weight:900;font-size:17px} .logo span{color:#f97316}
+.nav a{color:#fff;text-decoration:none;margin-left:12px;font-size:13px;font-weight:bold}
+.hero{position:relative;height:380px;display:flex;align-items:center;justify-content:center;text-align:center;background:url('https://images.unsplash.com/photo-1560250097-0b93528c311a?w=1200') center/cover no-repeat}
+.hero::after{content:'';position:absolute;inset:0;background:rgba(0,0,0,0.7)}
+.hero-content{position:relative;z-index:2;padding:0 5%}
+.hero h1{font-size:38px} .hero h1 span{color:#f97316}
+.hero p{color:#d1d5db;margin:14px 0}
 .btn{padding:12px 22px;border-radius:8px;text-decoration:none;font-weight:bold;display:inline-block;margin:5px}
 .btn-orange{background:#f97316;color:#fff}
-.section{padding:30px 5%}
-.section h2{text-align:center;margin-bottom:20px}
-.gallery{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:18px}
-.card{background:#fff;border-radius:12px;overflow:hidden;box-shadow:0 4px 12px rgba(0,0,0,0.1);border:1px solid #e2e8f0}
-.card img{width:100%;height:200px;object-fit:cover}
+.section{padding:35px 5%;background:#f9fafb;color:#111827}
+.section h2{text-align:center;margin-bottom:5px;font-size:28px}
+.section p.sub{text-align:center;color:#6b7280;margin-bottom:22px}
+.gallery{display:grid;grid-template-columns:repeat(auto-fit,minmax(300px,1fr));gap:20px}
+.card{background:#fff;border-radius:12px;overflow:hidden;box-shadow:0 6px 15px rgba(0,0,0,0.15);border:2px solid #e5e7eb}
+.card img{width:100%;height:220px;object-fit:cover}
 .card-body{padding:14px;text-align:center}
-.card-body h3{font-size:16px}
-.card-body small{color:#64748b;font-size:12px;display:block;margin:5px 0 10px 0}
-.card-btn{background:#f97316;color:#fff;width:100%;padding:10px;border:none;border-radius:8px;font-weight:bold;cursor:pointer}
-.footer{background:#0f172a;color:#94a3b8;padding:25px 5%;text-align:center;font-size:13px;margin-top:20px}
+.card-body h3{font-size:16px;color:#111827}
+.card-body small{color:#6b7280;font-size:12px;display:block;margin:6px 0 12px 0}
+.card-btn{background:#111827;color:#fff;width:100%;padding:11px;border:none;border-radius:8px;font-weight:bold;cursor:pointer}
+.card-btn:hover{background:#f97316}
+.footer{background:#000;color:#9ca3af;padding:25px 5%;text-align:center;font-size:13px}
 </style>
 </head>
 <body>
@@ -33,72 +37,75 @@ body{background:#f1f5f9;color:#1e293b}
 <div class="logo">BIHAR JHARKHAND<br><span>SCRAP CENTRE</span></div>
 <div class="nav">
 <a href="#">Home</a>
-<a href="#gallery">Gallery</a>
+<a href="#stock">Stock</a>
 <a href="https://wa.me/918340118679">Contact</a>
 </div>
 </div>
 
 <div class="hero">
-<h1>Old <span>Scrap Cars</span> Gallery</h1>
-<p>Hamare yard me available purani scrap gaadiyan - Gaya, Bodhya, Daltonganj</p>
-<a class="btn btn-orange" href="#gallery">Gallery Dekho ↓</a>
+<div class="hero-content">
+<h1>Real <span>Scrap Yard</span> in Bihar Jharkhand</h1>
+<p>Stacked, Wrecked, Rusted Cars - Asli Khatara Gaadiyan ka Stock</p>
+<a class="btn btn-orange" href="#stock">Yard Stock Dekho ↓</a>
+</div>
 </div>
 
-<div class="section" id="gallery">
-<h2>Hamari Scrap Gaadiyan</h2>
+<div class="section" id="stock">
+<h2>Hamare Yard Ka Asli Stock</h2>
+<p class="sub">Bilkul aapke bheje hue photos jaisa - Ek ke upar ek lagi hui scrap cars</p>
 <div class="gallery">
 
 <div class="card">
-<img src="https://images.unsplash.com/photo-1489824904134-891ab64532f1?w=600" alt="Scrap Car">
+<img src="https://images.unsplash.com/photo-1603386329225-868f9b1ee6c9?w=600" alt="Stacked Scrap">
 <div class="card-body">
-<h3>Maruti Alto - Scrap Condition</h3>
-<small>Available in Daltonganj Yard</small>
-<button class="card-btn" onclick="book('Maruti Alto Scrap')">Enquiry on WhatsApp →</button>
+<h3>Stacked Scrap Cars Lot</h3>
+<small>Daltonganj Yard | Heavy Scrap</small>
+<button class="card-btn" onclick="wa('Stacked Lot')">Enquiry on WhatsApp →</button>
 </div>
 </div>
 
 <div class="card">
-<img src="https://images.unsplash.com/photo-1503376780353-7e6692767b70?w=600" alt="Scrap Car">
+<img src="https://images.unsplash.com/photo-1560250097-0b93528c311a?w=600" alt="Wrecked">
 <div class="card-body">
-<h3>Maruti Swift - Scrap</h3>
-<small>Available in Gaya Yard</small>
-<button class="card-btn" onclick="book('Maruti Swift Scrap')">Enquiry on WhatsApp →</button>
+<h3>Wrecked & Damaged Cars Pile</h3>
+<small>Gaya Yard | Accident Scrap</small>
+<button class="card-btn" onclick="wa('Wrecked Pile')">Enquiry on WhatsApp →</button>
 </div>
 </div>
 
 <div class="card">
-<img src="https://images.unsplash.com/photo-1550355291-bbee04a92027?w=600" alt="Scrap Car">
+<img src="https://images.unsplash.com/photo-1486006920555-c77dc8c00baa?w=600" alt="Rusted">
 <div class="card-body">
-<h3>Mahindra Bolero - Scrap</h3>
-<small>Available in Bodhya Yard</small>
-<button class="card-btn" onclick="book('Bolero Scrap')">Enquiry on WhatsApp →</button>
+<h3>Rusted Old Sedan - Full Scrap</h3>
+<small>Bodhya Yard | Rusted Condition</small>
+<button class="card-btn" onclick="wa('Rusted Sedan')">Enquiry on WhatsApp →</button>
 </div>
 </div>
 
 <div class="card">
-<img src="https://images.unsplash.com/photo-1492144534655-ae79c964c9d7?w=600" alt="Scrap Car">
+<img src="https://images.unsplash.com/photo-1534146275378-aa4e6ddda9ce?w=600" alt="Accident">
 <div class="card-body">
-<h3>Tata Indica - Scrap</h3>
-<small>Available in Patna Yard</small>
-<button class="card-btn" onclick="book('Tata Indica Scrap')">Enquiry on WhatsApp →</button>
+<h3>Accident Car - Body Damage</h3>
+<small>Patna Yard | Total Loss</small>
+<button class="card-btn" onclick="wa('Accident Car')">Enquiry on WhatsApp →</button>
 </div>
 </div>
 
 <div class="card">
-<img src="https://images.unsplash.com/photo-1549399542-7e3f8b79c341?w=600" alt="Scrap Car">
+<img src="https://images.unsplash.com/photo-1580273916550-e323be2ae537?w=600" alt="Junkyard">
 <div class="card-body">
-<h3>Mahindra Scorpio - Scrap</h3>
-<small>Available in Daltonganj Yard</small>
-<button class="card-btn" onclick="book('Scorpio Scrap')">Enquiry on WhatsApp →</button>
+<h3>Full Junkyard Stock - Bulk</h3>
+<small>Ranchi Yard | Bulk Scrap</small>
+<button class="card-btn" onclick="wa('Bulk Junkyard')">Enquiry on WhatsApp →</button>
 </div>
 </div>
 
 <div class="card">
-<img src="https://images.unsplash.com/photo-1580273916550-e323be2ae537?w=600" alt="Scrap Car">
+<img src="https://images.unsplash.com/photo-1551524559-8af4e6624178?w=600" alt="Crushed">
 <div class="card-body">
-<h3>Tata Truck - Scrap</h3>
-<small>Available in Ranchi Yard</small>
-<button class="card-btn" onclick="book('Tata Truck Scrap')">Enquiry on WhatsApp →</button>
+<h3>Crushed Cars for Metal</h3>
+<small>Daltonganj Yard | Metal Scrap</small>
+<button class="card-btn" onclick="wa('Crushed Cars')">Enquiry on WhatsApp →</button>
 </div>
 </div>
 
@@ -106,13 +113,14 @@ body{background:#f1f5f9;color:#1e293b}
 </div>
 
 <div class="footer">
-Bihar Jharkhand Scrap Centre - Gaya Dobhi Road, Bodhya<br>Call: +91 8340118679 | Free Pickup | RC Cancellation
+Bihar Jharkhand Scrap Centre | Gaya Dobhi Road, Bodhya<br>
+Call: 8340118679 | Real Scrap Yard Photos | Free Pickup - RC Cancellation
 </div>
 
 <script>
-function book(car){
-let msg = `Namaste Sir, Mujhe ye Scrap Gaadi chahiye / bechni hai: ${car}. Price bataiye.`;
-window.open(`https://wa.me/918340118679?text=${encodeURIComponent(msg)}`, '_blank');
+function wa(car){
+let m=`Namaste Sir, Mujhe ye scrap stock chahiye: ${car}. Details bhejo.`;
+window.open(`https://wa.me/918340118679?text=${encodeURIComponent(m)}`,'_blank');
 }
 </script>
 </body>
