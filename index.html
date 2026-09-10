@@ -9,7 +9,7 @@
 :root{--gold:#C99319;--dark:#1A1A1A;--light:#FFFBF2;}
 *{margin:0;padding:0;box-sizing:border-box}
 body{font-family:'Inter',sans-serif;color:var(--dark);background:#fff}
-h1,h2,h3{font-family:'Playfair Display',serif}
+h1,h2{font-family:'Playfair Display',serif}
 .container{width:92%;max-width:1200px;margin:auto}
 header{position:fixed;top:0;width:100%;background:rgba(255,255,255,.95);backdrop-filter:blur(10px);z-index:100;box-shadow:0 2px 20px rgba(0,0,0,.08)}
 .nav{display:flex;justify-content:space-between;align-items:center;padding:18px 0}
@@ -20,86 +20,52 @@ header{position:fixed;top:0;width:100%;background:rgba(255,255,255,.95);backdrop
 .hero-grid{display:grid;grid-template-columns:1.2fr .8fr;gap:60px;align-items:center}
 .hero h1{font-size:60px;line-height:1.1;margin-bottom:20px}.hero h1 em{color:var(--gold);font-style:normal}
 .hero p{font-size:18px;color:#666;line-height:1.7;margin-bottom:30px}
-.hero-img{position:relative}.hero-img img{width:100%;border-radius:30px;box-shadow:0 30px 80px rgba(0,0,0,.15)}
-.badge{position:absolute;bottom:-20px;left:-20px;background:#fff;padding:20px 25px;border-radius:20px;box-shadow:0 10px 40px rgba(0,0,0,.1)}
+.hero-img img{width:100%;border-radius:30px;box-shadow:0 30px 80px rgba(0,0,0,.15)}
+.badge{position:absolute;bottom:-20px;left:-20px;background:#fff;padding:20px 25px;border-radius:20px;box-shadow:0 10px 40px rgba(0,0,0,.1);margin-top:10px;position:relative}
 .badge strong{font-size:32px;color:var(--gold)}
 .section{padding:100px 0}
 .center{text-align:center}
 .section-title{font-size:48px;margin-bottom:15px}.section-sub{color:#888;margin-bottom:50px}
 .products{display:grid;grid-template-columns:repeat(3,1fr);gap:30px}
-.product{background:#fff;border:1px solid #F0E6D3;border-radius:24px;overflow:hidden;transition:.4s}
+.product{background:#fff;border:1px solid #F0E6D3;border-radius:24px;overflow:hidden}
 .product img{width:100%;height:280px;object-fit:cover;background:#fff8e1}
 .product-info{padding:25px}.product-info h4{font-size:20px;margin-bottom:8px}.product-info p{color:#777;font-size:14px}
 .tag{display:inline-block;background:var(--light);color:var(--gold);padding:4px 12px;border-radius:100px;font-size:12px;font-weight:600;margin-bottom:10px}
-.outlet-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:25px}
-.outlet{background:var(--dark);color:#fff;padding:30px;border-radius:24px}
 footer{background:var(--dark);color:#fff;padding:60px 0 30px;text-align:center}
-@media(max-width:900px){.hero-grid,.products,.outlet-grid{grid-template-columns:1fr}.hero h1{font-size:42px}.nav-links{display:none}}
+@media(max-width:900px){.hero-grid,.products{grid-template-columns:1fr}.hero h1{font-size:42px}.nav-links{display:none}}
 </style>
 </head>
 <body>
-<header>
-<div class="container nav">
-<div class="logo">MOTHER <span>CHOICE</span></div>
-<div class="nav-links">
-<a href="#home">Home</a><a href="#products">Products</a><a href="#factory">Factory</a><a href="#contact">Contact</a>
-<a href="https://wa.me/9193652755068" class="btn-gold" style="padding:10px 20px;margin-left:20px">Order Now</a>
-</div>
-</div>
-</header>
+<header><div class="container nav"><div class="logo">MOTHER <span>CHOICE</span></div><div class="nav-links"><a href="#home">Home</a><a href="#products">Products</a><a href="#contact">Contact</a><a href="https://wa.me/9193652755068" class="btn-gold" style="padding:10px 20px;margin-left:20px">Order Now</a></div></div></header>
 
 <section class="hero" id="home">
 <div class="container hero-grid">
 <div>
 <h1>Love Baked <br>with <em>Mother's Touch.</em></h1>
-<p>MOTHER CHOICE is Bodhgaya's premium biscuit & bakery factory at Gaya Dobhi Road, Industrial Area. Since 2012, we bake healthy, crispy snacks. Wholesale at Rs 5 Only.</p>
-<div style="display:flex;gap:15px;flex-wrap:wrap">
+<p>MOTHER CHOICE - Bodhgaya's premium biscuit factory at Gaya Dobhi Road, Industrial Area. Wholesale at Rs 5 Only.</p>
 <a href="#products" class="btn-gold">EXPLORE BISCUITS</a>
-<a href="#factory" style="padding:14px 20px;text-decoration:none;color:#000;font-weight:600">Our Factory →</a>
-</div>
 </div>
 <div class="hero-img">
-<img src="IMG-20260910-WA9624.jpg" alt="Mother Choice">
-<div class="badge"><strong>12+</strong> Years of Trust<br><small>Bihar's Favourite - Rs 5</small></div>
+<img src="IMG-20260910-WA9624.jpg" alt="Mother Choice Main Jar">
+<div class="badge"><strong>12+</strong> Years of Trust - Rs 5 Wholesale</div>
 </div>
 </div>
 </section>
 
 <section class="section" id="products">
 <div class="container">
-<div class="center">
-<h2 class="section-title">Our Premium Collection</h2>
-<p class="section-sub">Made in Bodhgaya with Mother's Love - Rs 5 Wholesale</p>
-</div>
+<div class="center"><h2 class="section-title">Our Premium Collection</h2><p class="section-sub">Made in Bodhgaya - Rs 5 Wholesale</p></div>
 <div class="products">
-<div class="product"><img src="IMG-20260910-WA9624.jpg"><div class="product-info"><span class="tag">BESTSELLER</span><h4>Makkhan Roasted Bread</h4><p>Krishna Roasted Bread - Crispy Buttery</p><br><strong style="color:green;font-size:18px">Rs 5 Only</strong></div></div>
-<div class="product"><img src="IMG-20260910-WA9625.jpg"><div class="product-info"><span class="tag">NEW</span><h4>Butter Cookies</h4><p>ONE BYTE Premium - Melts in Mouth</p><br><strong style="color:green;font-size:18px">Rs 5 Only</strong></div></div>
-<div class="product"><img src="IMG-20260910-WA9626.jpg"><div class="product-info"><span class="tag">MOST LOVED</span><h4>Kaju Biscuit</h4><p>MOTHER CHOICE Special Kaju</p><br><strong style="color:green;font-size:18px">Rs 5 Only</strong></div></div>
-<div class="product"><img src="IMG-20260910-WA9627.jpg"><div class="product-info"><span class="tag">CHOCO</span><h4>ONE BYTE Choco Chip</h4><p>Chocolate Chips Loaded Cookies</p><br><strong style="color:green;font-size:18px">Rs 5 Only</strong></div></div>
-<div class="product"><img src="IMG-20260910-WA9628.jpg"><div class="product-info"><span class="tag">FAMILY PACK</span><h4>Special Jar Combo</h4><p>Assorted Biscuits Wholesale Pack</p><br><strong style="color:green;font-size:18px">Rs 5 Only</strong></div></div>
-<div class="product"><img src="IMG-20260910-WA9624.jpg"><div class="product-info"><span class="tag">BULK ORDER</span><h4>Factory Direct Supply</h4><p>Gaya Dobhi Road, Bodhgaya</p><br><strong>Contact for Distributorship</strong></div></div>
+<div class="product"><img src="IMG-20260910-WA9624.jpg"><div class="product-info"><span class="tag">BESTSELLER</span><h4>Makkhan Roasted Bread</h4><p>Krishna Special</p><br><strong style="color:green">Rs 5 Only</strong></div></div>
+<div class="product"><img src="IMG-20260910-WA6108.jpg"><div class="product-info"><span class="tag">NEW</span><h4>Butter Cookies</h4><p>ONE BYTE Premium</p><br><strong style="color:green">Rs 5 Only</strong></div></div>
+<div class="product"><img src="IMG-20260910-WA5784.jpg"><div class="product-info"><span class="tag">MOST LOVED</span><h4>Kaju Biscuit</h4><p>MOTHER CHOICE Special</p><br><strong style="color:green">Rs 5 Only</strong></div></div>
+<div class="product"><img src="IMG-20260910-WA1784.jpg"><div class="product-info"><span class="tag">CHOCO</span><h4>ONE BYTE Choco Chip</h4><p>Chocolate Loaded</p><br><strong style="color:green">Rs 5 Only</strong></div></div>
+<div class="product"><img src="IMG-20260910-WA0187.jpg"><div class="product-info"><span class="tag">FAMILY PACK</span><h4>Special Combo Jar</h4><p>Assorted Biscuits</p><br><strong style="color:green">Rs 5 Only</strong></div></div>
+<div class="product"><img src="IMG-20260910-WA9624.jpg"><div class="product-info"><span class="tag">FACTORY</span><h4>Factory Direct</h4><p>Gaya Dobhi Road, Bodhgaya</p><br><strong>Bulk Order Available</strong></div></div>
 </div>
 </div>
 </section>
 
-<section class="section" id="factory" style="background:#FFFBF2">
-<div class="container">
-<div class="center">
-<h2 class="section-title">Our Factory</h2>
-<p class="section-sub">Gaya Dobhi Road, Industrial Area, Bodhgaya</p>
-</div>
-<div class="outlet-grid">
-<div class="outlet"><h4 style="color:var(--gold)">📍 Main Factory</h4><br><p style="opacity:.8;line-height:1.6">Gaya Dobhi Road,<br>Industrial Area,<br>Bodhgaya, Bihar - 824231<br><br>Wholesale Rate: Rs 5</p></div>
-<div class="outlet"><h4 style="color:var(--gold)">📞 Contact Us</h4><br><p style="opacity:.8;line-height:1.6">WhatsApp: +91 93652 75508<br>For Bulk Orders<br>Distributorship Available<br><br>Daily Production: 5000 Jars</p></div>
-<div class="outlet"><h4 style="color:var(--gold)">🏭 Since 2012</h4><br><p style="opacity:.8;line-height:1.6">12+ Years of Trust<br>Bihar's Favourite Biscuit<br>Made with Mother's Love<br><br>100% Vegetarian</p></div>
-</div>
-</div>
-</section>
-
-<footer id="contact">
-<h2 style="color:var(--gold);font-size:32px;letter-spacing:2px">MOTHER CHOICE</h2><br>
-<p>Gaya Dobhi Road, Industrial Area, Bodhgaya, Bihar<br>Wholesale Bakery Factory | Since 2012 | Rs 5 Only<br><br>WhatsApp: +91 93652 75508</p>
-<br><br><p style="opacity:.5;font-size:13px">© 2026 Mother Choice - Bodhgaya - Made with Love</p>
-</footer>
+<footer id="contact"><h2 style="color:var(--gold)">MOTHER CHOICE</h2><br><p>Gaya Dobhi Road, Industrial Area, Bodhgaya, Bihar - 824231<br>Wholesale Bakery Factory | Since 2012<br><br>WhatsApp: +91 93652 75508</p><br><p style="opacity:.5;font-size:13px">© 2026 Mother Choice</p></footer>
 </body>
 </html>
