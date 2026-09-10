@@ -3,59 +3,50 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>MOTHER CHOICE - Premium Biscuits & Bakery | Dubai, UAE</title>
+<title>MOTHER CHOICE - Premium Biscuits & Bakery | Bodhgaya, Bihar</title>
 <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
 <style>
-:root{--gold:#C1913B;--dark:#1A1A1A;--light:#FFFBF2;--brown:#8B4513}
+:root{--gold:#C9193B;--dark:#1A1A1A;--light:#FFFBF2;--brown:#8B4513}
 *{margin:0;padding:0;box-sizing:border-box}
 body{font-family:'Inter',sans-serif;color:var(--dark);background:#fff}
 h1,h2,h3{font-family:'Playfair Display',serif}
 .container{width:92%;max-width:1200px;margin:auto}
-/* HEADER */
-header{position:fixed;top:0;width:100%;background:rgba(255,255,255,.95);backdrop-filter:blur(10px);z-index:100;box-shadow:0 1px 20px rgba(0,0,0,.06)}
+header{position:fixed;top:0;width:100%;background:rgba(255,255,255,.95);backdrop-filter:blur(10px);z-index:100;box-shadow:0 2px 20px rgba(0,0,0,.05)}
 .nav{display:flex;justify-content:space-between;align-items:center;padding:18px 0}
-.logo{font-size:28px;letter-spacing:2px;font-weight:700} .logo span{color:var(--gold);font-weight:300}
-.nav-links a{margin-left:30px;text-decoration:none;color:var(--dark);font-weight:500;font-size:14px;letter-spacing:1px;text-transform:uppercase}
-.nav-links a:hover{color:var(--gold)}
-.btn-gold{background:var(--gold);color:#fff;padding:14px 32px;border-radius:100px;text-decoration:none;font-weight:600;letter-spacing:1px;display:inline-block;transition:.3s}
-.btn-gold:hover{background:#000;transform:translateY(-2px)}
-/* HERO */
-.hero{min-height:100vh;display:flex;align-items:center;background:radial-gradient(circle at 80% 50%, #FFF4E0 0%, #FFFBF2 50%, #fff 100%);padding-top:80px}
-.hero-grid{display:grid;grid-template-columns:1.1fr .9fr;gap:60px;align-items:center}
-.hero h1{font-size:68px;line-height:.95;margin-bottom:20px} .hero h1 em{color:var(--gold);font-style:normal}
+.logo{font-size:22px;letter-spacing:2px;font-weight:700}.logo span{color:var(--gold);font-weight:300}
+.nav-links a{margin-left:30px;text-decoration:none;color:var(--dark);font-weight:500;font-size:14px}
+.btn-gold{background:var(--gold);color:#fff;padding:14px 32px;border-radius:100px;text-decoration:none;font-weight:600}
+.hero{min-height:100vh;display:flex;align-items:center;background:radial-gradient(circle at 80% 50%, #FFFEF0 0%, #FFFBF2 100%)}
+.hero-grid{display:grid;grid-template-columns:1.2fr .8fr;gap:60px;align-items:center}
+.hero h1{font-size:60px;line-height:1;margin-bottom:20px}.hero h1 em{color:var(--gold);font-style:normal}
 .hero p{font-size:18px;color:#666;line-height:1.7;margin-bottom:30px}
-.hero-img{position:relative} .hero-img img{width:100%;border-radius:30px;box-shadow:0 30px 80px rgba(0,0,0,.15)}
-.badge{position:absolute;bottom:-20px;left:-20px;background:#fff;padding:20px 25px;border-radius:20px;box-shadow:0 10px 40px rgba(0,0,0,.1);display:flex;align-items:center;gap:15px}
+.hero-img{position:relative}.hero-img img{width:100%;border-radius:30px;box-shadow:0 30px 80px rgba(0,0,0,.15)}
+.badge{position:absolute;bottom:-20px;left:-20px;background:#fff;padding:20px 25px;border-radius:20px;box-shadow:0 10px 40px rgba(0,0,0,.1)}
 .badge strong{font-size:32px;color:var(--gold)}
-/* SECTIONS */
 .section{padding:100px 0}
 .center{text-align:center}
-.section-title{font-size:48px;margin-bottom:15px} .section-sub{color:#888;margin-bottom:50px}
+.section-title{font-size:48px;margin-bottom:15px}.section-sub{color:#888;margin-bottom:50px}
 .products{display:grid;grid-template-columns:repeat(3,1fr);gap:30px}
 .product{background:#fff;border:1px solid #F0E6D3;border-radius:24px;overflow:hidden;transition:.4s}
-.product:hover{transform:translateY(-10px);box-shadow:0 20px 50px rgba(193,145,59,.15)}
 .product img{width:100%;height:260px;object-fit:cover}
-.product-info{padding:25px} .product-info h4{font-size:20px;margin-bottom:8px} .product-info p{color:#777;font-size:14px}
+.product-info{padding:25px}.product-info h4{font-size:20px;margin-bottom:8px}.product-info p{color:#777;font-size:14px}
 .tag{display:inline-block;background:var(--light);color:var(--gold);padding:4px 12px;border-radius:100px;font-size:12px;font-weight:600;margin-bottom:10px}
-/* OUTLETS */
 .outlet-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:25px}
 .outlet{background:var(--dark);color:#fff;padding:35px;border-radius:24px}
 .outlet h4{font-size:20px;color:var(--gold);margin-bottom:15px}
 .outlet p{opacity:.8;line-height:1.8;font-size:14px}
-/* FOOTER */
 footer{background:var(--dark);color:#fff;padding:60px 0 30px;text-align:center}
 footer .logo{color:#fff;margin-bottom:20px;display:block}
-@media(max-width:900px){.hero-grid,.products,.outlet-grid{grid-template-columns:1fr}.hero h1{font-size:42px}.nav-links{display:none}.section-title{font-size:34px}}
+@media(max-width:900px){.hero-grid,.products,.outlet-grid{grid-template-columns:1fr}.hero h1{font-size:42px}.nav-links{display:none}}
 </style>
 </head>
 <body>
-
 <header>
 <div class="container nav">
 <div class="logo">MOTHER <span>CHOICE</span></div>
 <div class="nav-links">
 <a href="#home">Home</a><a href="#products">Products</a><a href="#factory">Factory</a><a href="#contact">Contact</a>
-<a href="https://wa.me/971500000000" class="btn-gold" style="padding:10px 20px;margin-left:20px">Order Now</a>
+<a href="https://wa.me/919852755068" class="btn-gold" style="padding:10px 20px;margin-left:20px">Order Now</a>
 </div>
 </div>
 </header>
@@ -63,8 +54,8 @@ footer .logo{color:#fff;margin-bottom:20px;display:block}
 <section class="hero" id="home">
 <div class="container hero-grid">
 <div>
-<h1>Love Baked <br><em>Every Bite</em><br>with Mother's Touch</h1>
-<p>MOTHER CHOICE is Dubai's premium biscuit & bakery factory. Since 2012, we bake healthy, crispy, and delightful snacks with 100% motherly care.</p>
+<h1>Love Baked <br>Every Bite<em> with Mother's Touch.</em></h1>
+<p>MOTHER CHOICE is Bodhgaya's premium biscuit & bakery factory. Since 2012, we bake healthy, crispy, and delightful snacks made with love for every family in Bihar.</p>
 <div style="display:flex;gap:15px">
 <a href="#products" class="btn-gold">EXPLORE BISCUITS</a>
 <a href="#factory" style="padding:14px 20px;text-decoration:none;color:#000;font-weight:600">Our Factory →</a>
@@ -72,7 +63,7 @@ footer .logo{color:#fff;margin-bottom:20px;display:block}
 </div>
 <div class="hero-img">
 <img src="https://images.unsplash.com/photo-1558961363-fa8fdf82db35?w=800" alt="Mother Choice Biscuits">
-<div class="badge"><strong>12+</strong><div><b>Years of Trust</b><br><small>UAE's Favourite</small></div></div>
+<div class="badge"><strong>12+</strong><div>Years of Trust<br><small>Bihar's Favourite</small></div></div>
 </div>
 </div>
 </section>
@@ -81,50 +72,44 @@ footer .logo{color:#fff;margin-bottom:20px;display:block}
 <div class="container">
 <div class="center">
 <h2 class="section-title">Our Premium Collection</h2>
-<p class="section-sub">Same taste like belladelizioso - but with Mother's Choice quality</p>
+<p class="section-sub">Made in Bodhgaya with Mother's Love</p>
 </div>
 <div class="products">
-<div class="product"><img src="https://images.unsplash.com/photo-1499636136210-6f4ee915583e?w=600"><div class="product-info"><span class="tag">BEST SELLER</span><h4>Butter Delight Cookies</h4><p>Pure butter, melt in mouth. 300g Box</p></div></div>
-<div class="product"><img src="https://images.unsplash.com/photo-1558961363-fa8fdf82db35?w=600"><div class="product-info"><span class="tag">HEALTHY</span><h4>Oats & Honey Biscuits</h4><p>No Maida, No Sugar - Diabetic Friendly</p></div></div>
-<div class="product"><img src="https://images.unsplash.com/photo-1544787219-7f47cc556762?w=600"><div class="product-info"><span class="tag">NEW</span><h4>Choco Chip Bites</h4><p>Loaded with Belgian Chocolate</p></div></div>
-<div class="product"><img src="https://images.unsplash.com/photo-1578985545062-69928b1d9587?w=600"><div class="product-info"><span class="tag">PREMIUM</span><h4>Almond Biscotti</h4><p>Italian style roasted almond cookies</p></div></div>
-<div class="product"><img src="https://images.unsplash.com/photo-1598373182133-52452f7691ef?w=600"><div class="product-info"><span class="tag">FESTIVE</span><h4>Jeera & Salt Crackers</h4><p>Perfect with Tea - Evening Snack</p></div></div>
-<div class="product"><img src="https://images.unsplash.com/photo-1509440159596-0249088772ff?w=600"><div class="product-info"><span class="tag">CUSTOM</span><h4>Corporate Gifting Box</h4><p>Custom logo & packing for companies</p></div></div>
+<div class="product"><img src="https://images.unsplash.com/photo-1499636136210-6f4ee915583e?w=600"><div class="product-info"><span class="tag">Bestseller</span><h4>Butter Cookies</h4><p>Premium crispy butter cookies, fresh daily.</p></div></div>
+<div class="product"><img src="https://images.unsplash.com/photo-1558961363-fa8fdf82db35?w=600"><div class="product-info"><span class="tag">Healthy</span><h4>Whole Wheat Biscuits</h4><p>Healthy and tasty for your family.</p></div></div>
+<div class="product"><img src="https://images.unsplash.com/photo-1544787219-7f47cc556762?w=600"><div class="product-info"><span class="tag">New</span><h4>Cashew Delight</h4><p>Rich cashew biscuits made with love.</p></div></div>
 </div>
 </div>
 </section>
 
 <section class="section" style="background:var(--light)" id="factory">
-<div class="container" style="display:grid;grid-template-columns:1fr 1fr;gap:60px;align-items:center">
+<div class="container" style="display:grid;grid-template-columns:1fr 1fr;gap:50px;align-items:center">
 <div>
-<h2 class="section-title">Biscuit Factory in Dubai</h2>
-<p style="color:#666;line-height:1.8;margin:20px 0">MOTHER CHOICE factory is located in Al Quoz Industrial Area, Dubai. Fully automatic plant, ISO & HACCP certified, 5000+ kg daily capacity.</p>
-<p>✓ Export to GCC Countries<br>✓ Private Label Manufacturing<br>✓ Bulk Order for Supermarkets</p><br>
-<a href="#contact" class="btn-gold">BECOME A DISTRIBUTOR</a>
+<h2 class="section-title">Biscuit Factory in Bodhgaya</h2>
+<p style="color:#666;line-height:1.8;margin:20px 0">MOTHER CHOICE factory at Gaya Dobhi Road Industrial Area, Bodhgaya. We supply fresh biscuits across Bihar, Jharkhand and Bengal.</p>
+<p>✓ Direct Factory Supply<br>✓ Private Label Manufacturing<br>✓ Bulk Orders for Shops & Hotels</p>
+<a href="#contact" class="btn-gold" style="display:inline-block;margin-top:20px">BECOME A DISTRIBUTOR</a>
 </div>
-<img src="https://images.unsplash.com/photo-1517433670267-08bbd4be890f?w=800" style="width:100%;border-radius:24px">
+<img src="https://images.unsplash.com/photo-1517433367037-08bbd4be890f?w=800" style="width:100%;border-radius:20px">
 </div>
 </section>
 
 <section class="section" id="contact">
 <div class="container">
 <div class="center"><h2 class="section-title">Our Presence</h2></div>
-
 <div class="outlet-grid" style="margin-top:40px">
-<div class="outlet"><h4>Bodhgaya Factory & HQ</h4><p>Gaya Dobhi Road Industrial Area, Bodhgaya, Bihar<br>Mobile: 9852755068</p></div>
-<div class="outlet"><h4>For Orders</h4><p>All India Distribution Available<br>Mobile: 9852755068</p></div>
-<div class="outlet" style="background:var(--gold)"><h4 style="color:#fff">MOTHER CHOICE</h4><p style="color:#fff">Premium Biscuits & Bakery Factory</p></div>
+<div class="outlet"><h4>Bodhgaya Factory & HQ</h4><p>Gaya Dobhi Road Industrial Area, Bodhgaya, Bihar - 824231<br>Mobile: 9852755068</p></div>
+<div class="outlet"><h4>For Orders</h4><p>All India Distribution Available<br>For Bulk Orders Call<br>Mobile: 9852755068</p></div>
+<div class="outlet" style="background:var(--gold)"><h4 style="color:#fff">MOTHER CHOICE</h4><p style="color:#fff">Premium Biscuits & Bakery Factory<br>Love Baked in Every Bite</p></div>
 </div>
-
-
 </div>
 </section>
 
 <footer>
 <div class="container">
 <div class="logo">MOTHER <span>CHOICE</span></div>
-<p style="opacity:.6">www.motherchoice.ae | Premium Biscuits & Bakery Factory | Dubai, UAE<br>Deira City Centre | Dubai Mall | Souq Al Bahar | Yas Mall</p>
-<p style="margin-top:20px;opacity:.4;font-size:13px">© 2026 Mother Choice. All Rights Reserved. Inspired by belladelizioso.com</p>
+<p style="opacity:.6">Gaya Dobhi Road Industrial Area, Bodhgaya | Call: 9852755068 | Premium Biscuits & Bakery Factory</p>
+<p style="margin-top:20px;opacity:.4;font-size:13px">© 2026 Mother Choice Biscuits - Bodhgaya, Bihar. All Rights Reserved.</p>
 </div>
 </footer>
 
